@@ -71,6 +71,7 @@ python3 malicious_generator.py 10.10.6.46 My_Project_Files
 ## 2. How it works (The ZIP Strategy)
 
 During my testing, I  observed that direct downloads of the ".library-ms" files are often flagged by browsers (SmartScreen).
+
 To bypass this and increase credibility:
 
 1. The script crates a nested folder
