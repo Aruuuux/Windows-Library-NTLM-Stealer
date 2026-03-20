@@ -18,7 +18,6 @@ This tool is intended for security researchers and authorized penetration tester
 Never use it on systems you do not own or have explicit permission to test. 
 The author is not responsible for any misuse.
 
---
 
 ## 🛠️ Lab Setup
 
@@ -27,7 +26,6 @@ To reproduce this exploit, you need two machines on the same network, i am using
 1. **Attacker (Linux/Alfred):** IP `10.10.6.46` (Running Responder)
 2. **Victim (Windows 10):** IP `10.10.6.177` (Vulnerable version < July 2024)
 
---
 
 ## 🛠️ Attacker Setup: Responder
 
