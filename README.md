@@ -37,7 +37,7 @@ It is used here to emulate a rogue SMB server that will capture the victim's [NT
 If you don't have Responder installed on your Linux, follow these steps:
 
 ```bash
-git clone [https://github.com/lgandx/Responder.git](https://github.com/lgandx/Responder.git)
+git clone https://github.com/lgandx/Responder.git
 cd Responder
 sudo apt install python3-pip
 pip3 install -r requirements.txt
