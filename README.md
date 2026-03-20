@@ -1,6 +1,6 @@
 # CVE-2024-38021 - Windows Library NTLM Hash Theft PoC
 
-heck the official exploit here: [Exploit-DB 52480](https://www.exploit-db.com/exploits/52480)
+Check the official exploit here: [Exploit-DB 52480](https://www.exploit-db.com/exploits/52480)
 
 ## 📌 Overview
 
