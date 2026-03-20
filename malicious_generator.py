@@ -52,7 +52,7 @@ if __name__ == "__main__":
         attacker_ip = sys.argv[1]
         target_folder = sys.argv[2]
     else:
-        print("Usage: python3 exploit.py <ATTACK_IP> <FOLDER_NAME>")
+        print("Usage: python3 malicious_generator.py <ATTACK_IP> <FOLDER_NAME>")
         print("Using default values for testing...")
         attacker_ip = "10.10.6.46"
         target_folder = "Project_Data"
