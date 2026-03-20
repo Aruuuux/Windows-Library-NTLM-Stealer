@@ -4,7 +4,7 @@ Check the official exploit here: [Exploit-DB 52480](https://www.exploit-db.com/e
 
 ## 📌 Overview
 
-This repository contains a functional Proof of Concept (PoC) for **CVE-2024-38021** (related to EDB-ID 52480). 
+This repository contains a functional Proof of Concept (PoC) for **CVE-2025-24054**. 
 This vulnerability allows an attacker to force a Windows system to initiate an outbound NTLM authentication by simply interacting with a crafted `.library-ms` file.
 
 The goal of this project is to demonstrate how "Forced Authentication" attacks work and how they can lead to credential theft (NTLMv2 hashes) via the SMB protocol.
@@ -95,6 +95,6 @@ hashcat -m 5600 captured_hash.txt /usr/share/wordlists/rockyou.txt
 
 ###  🛡️ Mitigation
 
-1. Update Windows: Install the July 2024 security patches.
+1. Update Windows: Install the July 2025 security patches.
 2. Block Port 445: Block outbound SMB traffic at the firewall level.
 3. SMB Signing: Enforce SMB signing to prevent relay attacks.
