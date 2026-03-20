@@ -74,7 +74,7 @@ During my testing, I  observed that direct downloads of the ".library-ms" files 
 
 To bypass this and increase credibility:
 
-1. The script crates a nested folder
+1. The script creates a nested folder
 2. It places the ".library-ms" file inside this folder.
 3. It compresses everything into a ZIP archive.
 
