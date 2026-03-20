@@ -1,4 +1,4 @@
-# CVE-2024-38021 - Windows Library NTLM Hash Theft PoC
+# CVE-2025-24054 - Windows Library NTLM Hash Theft PoC
 
 Check the official exploit here: [Exploit-DB 52480](https://www.exploit-db.com/exploits/52480)
 
