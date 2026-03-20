@@ -21,9 +21,9 @@ The author is not responsible for any misuse.
 
 ## 🛠️ Lab Setup
 
-To reproduce this exploit, you need two machines on the same network, i am using a linux and windows 10 for exemple:
+To reproduce this exploit, you need two machines on the same network:
 
-1. **Attacker (Linux/Alfred):** IP `10.10.6.46` (Running Responder)
+1. **Attacker (Linux):** IP `10.10.6.46` (Running Responder)
 2. **Victim (Windows 10):** IP `10.10.6.177` (Vulnerable version < July 2024)
 
 
