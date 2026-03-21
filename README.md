@@ -9,7 +9,7 @@ This vulnerability allows an attacker to force a Windows system to initiate an o
 
 The goal of this project is to demonstrate how "Forced Authentication" attacks work and how they can lead to credential theft (NTLMv2 hashes) via the SMB protocol.
 
-This exploit has been patched since July 09, 2024: [patch note here](https://learn.microsoft.com/en-us/officeupdates/microsoft365-apps-security-updates)
+This exploit has been patched since March, 2025: [patch note here](https://learn.microsoft.com/en-us/officeupdates/microsoft365-apps-security-updates)
 
 ## ⚠️ Disclaimer
 
@@ -24,7 +24,7 @@ The author is not responsible for any misuse.
 To reproduce this exploit, you need two machines on the same network:
 
 1. **Attacker (Linux):** IP `10.10.6.46` (Running Responder)
-2. **Victim (Windows 10):** IP `10.10.6.177` (Vulnerable version < July 2024)
+2. **Victim (Windows 10):** IP `10.10.6.177` (Vulnerable version < March 2025)
 
 
 ## 🛠️ Attacker Setup: Responder
@@ -95,6 +95,6 @@ hashcat -m 5600 captured_hash.txt /usr/share/wordlists/rockyou.txt
 
 ###  🛡️ Mitigation
 
-1. Update Windows: Install the July 2025 security patches.
+1. Update Windows: Install the March 2025 security patches.
 2. Block Port 445: Block outbound SMB traffic at the firewall level.
 3. SMB Signing: Enforce SMB signing to prevent relay attacks.
